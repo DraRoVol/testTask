@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block Placement Algorithm</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+    <div class="fullness"  id="fullnessDisplay"></div>
+    <div class="options">
+      <ul class="options-list">
+        <li class="options-item">
+          <label for="width">Block Width:</label>
+          <input type="number" id="width" placeholder="Enter width" />
+        </li>
+        <li>
+          <label for="height">Block Height:</label>
+          <input type="number" id="height" placeholder="Enter height" />
+        </li>
+      </ul>
+      <button class="options-btn" onclick="addBlock()">Add Block</button>
+    </div>
+    <div class="container" id="container"></div>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
